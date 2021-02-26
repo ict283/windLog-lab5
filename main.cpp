@@ -1,10 +1,4 @@
-//
-//  main.cpp
-//  shoppingList
-//
-//  Created by Glenn Lum on 23/2/21.
-//  Copyright © 2021 Glenn Lum. All rights reserved.
-//
+// For review purposes only! Does not represent the actual solution!
 
 #include <iostream>
 
