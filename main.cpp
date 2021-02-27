@@ -17,8 +17,28 @@ int main(void)
 {
    Vector<windLogType> listOfData;
 
+   string fileName= "Y";
 
+   ifstream infile (fileName);
 
+    if(infile.is_open())
+    {
+
+       while(Y)
+      {
+        //read in data...
+
+        windLogType data;
+        listOfData.push_back(data);
+        //store the data
+
+      }
+
+    }
+    else
+    {
+      cout<<"Error opening file";
+    }
 
 
     return 0;
