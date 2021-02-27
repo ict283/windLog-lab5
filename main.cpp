@@ -13,7 +13,12 @@ struct WindLogType
 };
 
 
-int main(void) {
+int main(void)
+{
+   Vector<windLogType> listOfData;
+
+
+
 
 
     return 0;
