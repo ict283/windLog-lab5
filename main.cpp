@@ -28,7 +28,13 @@ int main(void)
       {
         //read in data...
 
+        int windspeed;
+
         windLogType data;
+        data.d.setDate(Y);
+        data.t.setTime(Y);
+        data.speed = windspeed;
+
         listOfData.push_back(data);
         //store the data
 
