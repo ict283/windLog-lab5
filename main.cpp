@@ -4,6 +4,7 @@
 #include “Date.h”  // your Date class from a previous lab
 #include “Time.h”  // your Time class from this lab
 #include “Vector.h” // your Template Vector class from this lab
+#include "windLogType.h"
 
 struct WindLogType
 {
