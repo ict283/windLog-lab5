@@ -5,6 +5,13 @@
 #include “Time.h”  // your Time class from this lab
 #include “Vector.h” // your Template Vector class from this lab
 
+struct WindLogType
+{
+    Date d;
+    Time t;
+    float speed;
+};
+
 
 int main(void) {
 
