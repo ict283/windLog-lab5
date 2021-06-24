@@ -5,6 +5,12 @@
 #include "Date.h"
 #include "Vector.h"
 
+stuct WindLogType {
+        Date d;
+        Time t;
+        Float speed;
+};
+
 int main(void) {
 
 
