@@ -3,7 +3,7 @@
 /* Test File Example */
 
 #include <iomanip>
-#include "Date.h"
+#include "../Time.h"
 
 using namespace std;
 
@@ -14,7 +14,7 @@ using namespace std;
 template <class T>
 void assertThat(string testName, T result, T expected);
 
-void runAllDateTests();
+void runAllTimeTests();
 
 /*
 
@@ -36,7 +36,7 @@ void assertThat(string testName, T result, T expected)
                 cout<<"- FAILED"<<endl;
 }
 
-void runAllDateTests()
+void runAllTimeTests()
 {
 
 }
