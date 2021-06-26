@@ -13,6 +13,42 @@ stuct WindLogType {
 
 int main(void) {
 
+  windLogType data;
+  Vector<windLogType> listOfData;
+
+  string fileName= "Y";
+  ifstream infile (fileName);
+
+  if(infile.is_open()) {
+
+          while(Y) {
+
+                  //Read raw data from file
+                  getline(Y);
+                  ...
+                  ...
+
+                  //Process raw data
+                  ...
+                  ...
+
+                  //Update values
+                  data.d.setDate(Y);
+                  data.t.setTime(Y);
+                  data.speed = Y;
+                  ...
+                  ...
+
+                  //Push data obj into vector
+                  listOfData.push_back(data);
+                  ...
+                  ...
+          }
+
+  }
+  else {
+          cout<<"Error opening file";
+  }
 
     return 0;
 }
